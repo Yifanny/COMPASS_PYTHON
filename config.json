@@ -1,0 +1,19 @@
+{
+	"main-file" : "example.py",
+	"function-name" : "mnist",
+	"num-samples" : 5,
+	"max-iters" : 100,
+	"scale" : 0.5,
+	"variables" : {
+		"learning_rate" : {
+			"type" : "float",
+			"min" : 0,
+			"max" : 1
+		},
+		"regularization" : {
+			"type" : "float",
+			"min" : 0,
+			"max" : 1
+		}
+	}
+}

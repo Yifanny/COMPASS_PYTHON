@@ -1,0 +1,19 @@
+{
+	"main-file" : "example.py",
+	"function-name" : "branin",
+	"num-samples" : 5,
+	"max-iters" : 100,
+	"scale" : 0.5,
+	"variables" : {
+		"x" : {
+			"type" : "float",
+			"min" : -5,
+			"max" : 10
+		},
+		"y" : {
+			"type" : "float",
+			"min" : 0,
+			"max" : 15
+		}
+	}
+}
